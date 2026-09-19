@@ -10,7 +10,7 @@ type CookieSession = {
   token: string;
   expires_at: string;
 };
-
+// TODO: we are here in the lesson
 export function setSessionCookie(
   response: Response,
   session: CookieSession,
